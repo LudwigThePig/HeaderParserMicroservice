@@ -1,10 +1,26 @@
-# API Project: Request Header Parser Microservice for freeCodeCamp
+# Request Header Parser
 
-### User stories:
-1. I can get the IP address, preferred languages (from header `Accept-Language`) and system infos (from header `User-Agent`) for my device.
+### User Story:
 
-#### Example usage:
-* [base_url]/api/whoami
+> I can get the IP address, language, and software that I'm currently using.
 
-#### Example output:
-* `{"ipaddress":"159.20.14.100","language":"en-US,en;q=0.5","software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}`
+### Example Usage:
+
+[https://URL/api/whoami](https://flint-fossa.glitch.me/api/whoami)
+
+### Example Output:
+
+```
+{
+  "ipaddress": "127.0.0.1",
+  "language": "en-US",
+  "software": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36""
+}
+```
+
+### Technologies Used:
+
+* Node.js
+* Express.js
+
+Developed for a Free Code Camp project. Original project idea link: [https://www.freecodecamp.com/challenges/request-header-parser-microservice](https://www.freecodecamp.com/challenges/request-header-parser-microservice)
